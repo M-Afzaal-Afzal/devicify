@@ -7,9 +7,10 @@ import {
 } from '@heroicons/react/outline'
 
 const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
+    { name: 'Platform', href: '#' },
+    { name: 'Customers', href: '#' },
+    { name: 'Pricing', href: '#' },
+    { name: 'Pricing', href: '#' },
     { name: 'Company', href: '#' },
 ]
 

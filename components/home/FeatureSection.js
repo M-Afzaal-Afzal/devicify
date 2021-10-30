@@ -117,12 +117,107 @@ export default function FeatureSection() {
                             </defs>
                             <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
                         </svg>
-                        <img
-                            className="relative mx-auto"
-                            width={490}
-                            src="https://tailwindui.com/img/features/feature-example-1.png"
-                            alt=""
-                        />
+
+
+                        <div className={'grid grid-cols-3 px-4 gap-4 place-items-center'}>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/amazone.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/cugust.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/genie.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/honeywell.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/kwikset.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/lifx.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/matter.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/nest.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/philips.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/schlage.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/wave.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="relative mx-auto"
+                                    // width={490}
+                                    src="/home/logos/yale.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
