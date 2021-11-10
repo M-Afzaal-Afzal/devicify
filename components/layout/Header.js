@@ -10,7 +10,7 @@ const navigation = [
     { name: 'Platform', href: '#' },
     { name: 'Customers', href: '#' },
     { name: 'Pricing', href: '#' },
-    { name: 'Pricing', href: '#' },
+    { name: 'Developers', href: '#' },
     { name: 'Company', href: '#' },
 ]
 

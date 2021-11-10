@@ -293,7 +293,7 @@ export default function FeatureSection() {
                             <img
                                 className="relative mx-auto"
                                 width={490}
-                                src="https://tailwindui.com/img/features/feature-example-2.png"
+                                src="/home/observability.png"
                                 alt=""
                             />
                         </div>
