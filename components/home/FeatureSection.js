@@ -1,36 +1,36 @@
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
+import {AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon} from '@heroicons/react/outline'
 
 const transferFeatures = [
     {
         id: 1,
-        name: 'Turn-key Device Onboarding',
-        description:`Wether it’s a Z-wave Hub, WiFi device, or Matter connected device we make it easy to onboard your devices into our platform.`,
+        name: 'Turn-key Device & Hub Onboarding',
+        description: `Wether it’s a Z-wave Hub, WiFi device, or Matter connected device we make it easy to onboard your devices into our platform`,
         icon: GlobeAltIcon,
     },
     {
         id: 2,
         name: 'Seamless Developer Experience',
-        description:`Build scalable apps with the top developer experience in the world. Top notch documentation, 3 minute tutorials, open source examples, and pre-made reciepies for 1 click deploys.`,
-           icon: ScaleIcon,
+        description: `Build scalable apps with the top developer experience in the world. Top notch documentation, 3 minute tutorials, open source examples, and pre-made reciepies for 1 click deploys.`,
+        icon: ScaleIcon,
     },
     {
         id: 3,
         name: 'Unified API, SDK’s. and Developer Tools',
         description: `A common interface to integrate with thousands of connected smart-home devices. Easy to use SDK’s for the top programming languages. Developer tools to track events, debug, and see logs.`,
-             icon: LightningBoltIcon,
+        icon: LightningBoltIcon,
     },
 ]
 const communicationFeatures = [
     {
         id: 1,
         name: 'AI Enabled Insights',
-        description:  `Using our advanced AI we are constantly looking for errors and issues. Pre-emptive scans can help detect problems before they become real issues. Performance problems.. or connection issues... or cell network issues...`,
-              icon: AnnotationIcon,
+        description: `Using our advanced AI we are constantly looking for errors and issues. Pre-emptive scans can help detect problems before they become real issues like performance problems, connection issues, or cell/wifi network issues.`,
+        icon: AnnotationIcon,
     },
     {
         id: 2,
         name: 'Self-healing',
-        description: `Using our event intelligence we use ability of devZix to self-correct problems and potential problems before they become noticeable to end users`,
+        description: `Using our event intelligence, we can self-correct problems and potential problems before they become noticeable to end users`,
         icon: MailIcon,
     },
 ]
@@ -56,10 +56,10 @@ export default function FeatureSection() {
                             height={20}
                             patternUnits="userSpaceOnUse"
                         >
-                            <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                            <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor"/>
                         </pattern>
                     </defs>
-                    <rect width={404} height={784} fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
+                    <rect width={404} height={784} fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"/>
                 </svg>
 
                 <div className="relative">
@@ -77,15 +77,16 @@ export default function FeatureSection() {
                             Build best of breed apps not integrations
                         </h3>
                         <p className="mt-3 text-lg text-gray-500">
-                            xxxxxxxx
+                            Start building with Devicify today
                         </p>
 
                         <dl className="mt-10 space-y-10">
                             {transferFeatures.map((item) => (
                                 <div key={item.id} className="relative">
                                     <dt>
-                                        <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                                            <item.icon className="h-6 w-6" aria-hidden="true" />
+                                        <div
+                                            className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                            <item.icon className="h-6 w-6" aria-hidden="true"/>
                                         </div>
                                         <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{item.name}</p>
                                     </dt>
@@ -112,10 +113,11 @@ export default function FeatureSection() {
                                     height={20}
                                     patternUnits="userSpaceOnUse"
                                 >
-                                    <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                                    <rect x={0} y={0} width={4} height={4} className="text-gray-200"
+                                          fill="currentColor"/>
                                 </pattern>
                             </defs>
-                            <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
+                            <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"/>
                         </svg>
 
 
@@ -238,26 +240,29 @@ export default function FeatureSection() {
                             height={20}
                             patternUnits="userSpaceOnUse"
                         >
-                            <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                            <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor"/>
                         </pattern>
                     </defs>
-                    <rect width={404} height={784} fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
+                    <rect width={404} height={784} fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"/>
                 </svg>
 
                 <div className="relative mt-12 sm:mt-16 lg:mt-24">
                     <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                         <div className="lg:col-start-2">
-                            <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Observability done right</h3>
+                            <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Observability
+                                done right</h3>
                             <p className="mt-3 text-lg text-gray-500">
-                                Our platform provides immersive event logging, error reporting, and advanced debugging into your connect mesh networks, z-wave hubs, etc..
+                                Our platform provides immersive event logging, error reporting, and advanced debugging
+                                into your connected mesh networks, z-wave hubs and matter devices.
                             </p>
 
                             <dl className="mt-10 space-y-10">
                                 {communicationFeatures.map((item) => (
                                     <div key={item.id} className="relative">
                                         <dt>
-                                            <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                                                <item.icon className="h-6 w-6" aria-hidden="true" />
+                                            <div
+                                                className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                                <item.icon className="h-6 w-6" aria-hidden="true"/>
                                             </div>
                                             <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{item.name}</p>
                                         </dt>
@@ -285,10 +290,11 @@ export default function FeatureSection() {
                                         height={20}
                                         patternUnits="userSpaceOnUse"
                                     >
-                                        <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                                        <rect x={0} y={0} width={4} height={4} className="text-gray-200"
+                                              fill="currentColor"/>
                                     </pattern>
                                 </defs>
-                                <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
+                                <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"/>
                             </svg>
                             <img
                                 className="relative mx-auto"

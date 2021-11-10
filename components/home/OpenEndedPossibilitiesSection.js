@@ -43,9 +43,7 @@ const OpenEndedPossibilitiesSection = () => {
                                 <blockquote>
                                     <div>
                                         <p className="text-base text-gray-500">
-                                            &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci
-                                            risus aenean
-                                            curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                                            &ldquo;Absolutely love the devicify APIs. They are so simple to use.&rdquo;
                                         </p>
                                     </div>
                                     <footer className="mt-3">
@@ -58,7 +56,7 @@ const OpenEndedPossibilitiesSection = () => {
                                                 />
                                             </div>
                                             <div className="text-base font-medium text-gray-700">
-                                                Marcia Hill, Digital Marketing Manager
+                                                Donna Hill, Software Engineering Manager
                                             </div>
                                         </div>
                                     </footer>
@@ -90,14 +88,12 @@ const OpenEndedPossibilitiesSection = () => {
                                 </div>
                                 <div className="mt-6">
                                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                                        Better understand your customers
+                                        Use our hub or onboard your own!
                                     </h2>
                                     <p className="mt-4 text-lg text-gray-500">
-                                        Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada
-                                        faucibus lacinia
-                                        porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium
-                                        pharetra at.
-                                        Lectus viverra dui tellus ornare pharetra.
+                                        Instead of connecting to each device individually, we proxy all of the device
+                                        communications through a central hub. This could be a Z-wave controller or even
+                                        a wifi based thermostat running on Thread.
                                     </p>
                                     <div className="mt-6">
                                         <a

@@ -34,7 +34,7 @@ const HeroSection = () => {
                                         <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
                                             Devicify takes a modern approach towards abstracting the complexities of
                                             smart-homes integration by using our unified API to provide a simple,
-                                            secure, and amazing developer experience
+                                            secure, and amazing developer experience.
                                         </p>
                                         <div className="mt-10 sm:mt-12">
                                             <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -60,9 +60,8 @@ const HeroSection = () => {
                                                     </div>
                                                 </div>
                                                 <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                                                    Start your free 14-day trial, no credit card necessary. By providing
-                                                    your email, you agree to
-                                                    our{' '}
+                                                    Start your free trial, no credit card necessary. By providing your
+                                                    email, you agree to our {' '}
                                                     <a href="#" className="font-medium text-white">
                                                         terms or service
                                                     </a>
@@ -76,8 +75,14 @@ const HeroSection = () => {
                                     <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                                         {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                                         <img
+                                            className="relative mx-auto"
+                                            width={490}
+                                            src="/home/hero.png"
+                                            alt=""
+                                        />
+                                        <img
                                             className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                                            src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg"
+                                            src="/home/hero.png"
                                             alt=""
                                         />
                                     </div>

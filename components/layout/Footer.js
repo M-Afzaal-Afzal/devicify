@@ -1,13 +1,13 @@
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
 const navigation = {
-    solutions: [
-        { name: 'Marketing', href: '#' },
-        { name: 'Analytics', href: '#' },
-        { name: 'Commerce', href: '#' },
-        { name: 'Insights', href: '#' },
-    ],
-    support: [
+    // solutions: [
+    //     { name: 'Marketing', href: '#' },
+    //     { name: 'Analytics', href: '#' },
+    //     { name: 'Commerce', href: '#' },
+    //     { name: 'Insights', href: '#' },
+    // ],
+    developers: [
         { name: 'Pricing', href: '#' },
         { name: 'Documentation', href: '#' },
         { name: 'Guides', href: '#' },
@@ -98,24 +98,24 @@ export default function Example() {
             </h2>
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                 <div className="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
-                    <div className="grid grid-cols-2 gap-8 xl:col-span-4">
-                        <div className="md:grid md:grid-cols-2 md:gap-8">
-                            <div>
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>
-                                <ul role="list" className="mt-4 space-y-4">
-                                    {navigation.solutions.map((item) => (
-                                        <li key={item.name}>
-                                            <a href={item.href} className="text-base text-gray-300 hover:text-white">
-                                                {item.name}
-                                            </a>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
+                    <div className="grid sm:grid-cols-3 align-baseline gap-8 xl:col-span-4">
+                        <div className="md:grid md:gap-8">
+                            {/*<div>*/}
+                                {/*<h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>*/}
+                                {/*<ul role="list" className="mt-4 space-y-4">*/}
+                                {/*    {navigation.solutions.map((item) => (*/}
+                                {/*        <li key={item.name}>*/}
+                                {/*            <a href={item.href} className="text-base text-gray-300 hover:text-white">*/}
+                                {/*                {item.name}*/}
+                                {/*            </a>*/}
+                                {/*        </li>*/}
+                                {/*    ))}*/}
+                                {/*</ul>*/}
+                            {/*</div>*/}
                             <div className="mt-12 md:mt-0">
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Support</h3>
+                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Developers</h3>
                                 <ul role="list" className="mt-4 space-y-4">
-                                    {navigation.support.map((item) => (
+                                    {navigation.developers.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-300 hover:text-white">
                                                 {item.name}
@@ -125,31 +125,33 @@ export default function Example() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="md:grid md:grid-cols-2 md:gap-8">
+                        <div className="md:grid grid-cols-2 md:grid-cols-2 md:gap-8">
                             <div>
                                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Company</h3>
                                 <ul role="list" className="mt-4 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-base text-gray-300 hover:text-white">
+                                            <a href={item.href}
+                                               className="text-base text-gray-300 hover:text-white"
+                                            >
                                                 {item.name}
                                             </a>
                                         </li>
                                     ))}
                                 </ul>
                             </div>
-                            <div className="mt-12 md:mt-0">
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
-                                <ul role="list" className="mt-4 space-y-4">
-                                    {navigation.legal.map((item) => (
-                                        <li key={item.name}>
-                                            <a href={item.href} className="text-base text-gray-300 hover:text-white">
-                                                {item.name}
-                                            </a>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
+                        </div>
+                        <div className="mt-12 md:mt-0">
+                            <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
+                            <ul role="list" className="mt-4 space-y-4">
+                                {navigation.legal.map((item) => (
+                                    <li key={item.name}>
+                                        <a href={item.href} className="text-base text-gray-300 hover:text-white">
+                                            {item.name}
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
                     </div>
                     <div className="mt-12 xl:mt-0">
@@ -177,31 +179,31 @@ export default function Example() {
                                     </div>
                                 </div>
                             </fieldset>
-                            <fieldset className="mt-4 w-full">
-                                <label htmlFor="currency" className="sr-only">
-                                    Currency
-                                </label>
-                                <div className="mt-1.5 relative">
-                                    <select
-                                        id="currency"
-                                        name="currency"
-                                        className="appearance-none w-full bg-none bg-gray-700 border border-transparent rounded-md block py-2 pl-3 pr-10 text-base text-white focus:outline-none focus:ring-white focus:border-white sm:text-sm"
-                                        defaultValue="AUD"
-                                    >
-                                        <option>ARS</option>
-                                        <option>AUD</option>
-                                        <option>CAD</option>
-                                        <option>CHF</option>
-                                        <option>EUR</option>
-                                        <option>GBP</option>
-                                        <option>JPY</option>
-                                        <option>USD</option>
-                                    </select>
-                                    <div className="pointer-events-none absolute inset-y-0 right-0 px-2 flex items-center">
-                                        <ChevronDownIcon className="h-4 w-4 text-white" aria-hidden="true" />
-                                    </div>
-                                </div>
-                            </fieldset>
+                            {/*<fieldset className="mt-4 w-full">*/}
+                            {/*    <label htmlFor="currency" className="sr-only">*/}
+                            {/*        Currency*/}
+                            {/*    </label>*/}
+                            {/*    <div className="mt-1.5 relative">*/}
+                            {/*        <select*/}
+                            {/*            id="currency"*/}
+                            {/*            name="currency"*/}
+                            {/*            className="appearance-none w-full bg-none bg-gray-700 border border-transparent rounded-md block py-2 pl-3 pr-10 text-base text-white focus:outline-none focus:ring-white focus:border-white sm:text-sm"*/}
+                            {/*            defaultValue="AUD"*/}
+                            {/*        >*/}
+                            {/*            <option>ARS</option>*/}
+                            {/*            <option>AUD</option>*/}
+                            {/*            <option>CAD</option>*/}
+                            {/*            <option>CHF</option>*/}
+                            {/*            <option>EUR</option>*/}
+                            {/*            <option>GBP</option>*/}
+                            {/*            <option>JPY</option>*/}
+                            {/*            <option>USD</option>*/}
+                            {/*        </select>*/}
+                            {/*        <div className="pointer-events-none absolute inset-y-0 right-0 px-2 flex items-center">*/}
+                            {/*            <ChevronDownIcon className="h-4 w-4 text-white" aria-hidden="true" />*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+                            {/*</fieldset>*/}
                         </form>
                     </div>
                 </div>
@@ -247,7 +249,7 @@ export default function Example() {
                         ))}
                     </div>
                     <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-                        &copy; 2020 Workflow, Inc. All rights reserved.
+                        © 2021 Devicify, Inc. All rights reserved.
                     </p>
                 </div>
             </div>

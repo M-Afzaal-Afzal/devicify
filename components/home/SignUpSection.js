@@ -72,13 +72,13 @@ const SignUpSection = () => {
                                    Sign up for free!
                                </h2>
                                <p className="text-lg text-white">
-                                   Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.
-                               </p>
+                                   Start builng today. We have several simple receipes
+                                   and tutotials available for any curious developer.                               </p>
                                <a
                                    className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto"
                                    href="#"
                                >
-                                   Sign up for our beta
+                                   Start free trial
                                </a>
                            </div>
                        </div>
