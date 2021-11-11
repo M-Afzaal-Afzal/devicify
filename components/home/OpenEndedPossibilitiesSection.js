@@ -12,7 +12,7 @@ const OpenEndedPossibilitiesSection = () => {
                 <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"/>
                 <div className="relative">
                     <div
-                        className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                        className="lg:mx-auto items-center lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                         <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                             <div>
                                 <div>
@@ -63,13 +63,20 @@ const OpenEndedPossibilitiesSection = () => {
                                 </blockquote>
                             </div>
                         </div>
-                        <div className="mt-12 sm:mt-16 lg:mt-0">
-                            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                        <div className="mt-12 mb-0 pb-8 sm:-mb-0 lg:m-0 lg:relative">
+                            <div className="mx-auto my-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
+                                {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                                 <img
-                                    className="w-full rounded-xl  lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                                    className="relative mx-auto"
+                                    width={490}
                                     src="/home/api.png"
-                                    alt="Inbox user interface"
+                                    alt=""
                                 />
+                                {/*<img*/}
+                                {/*    className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"*/}
+                                {/*    src="/home/hero.png"*/}
+                                {/*    alt=""*/}
+                                {/*/>*/}
                             </div>
                         </div>
                     </div>
